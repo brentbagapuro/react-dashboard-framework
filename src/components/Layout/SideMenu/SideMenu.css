@@ -1,0 +1,100 @@
+.SideMenu {
+  display: fixed;
+  height: 100vh;
+  width: fit-content;
+  background-color: #282828;
+}
+
+.wrapper {
+  min-width: 5rem;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.menu-head {
+  display: flex;
+}
+
+.menu-head > * + * {
+  margin-left: 10px;
+}
+
+.menu-item {
+  color: #fff;
+  padding: 1.5rem 1.5rem 10px;
+}
+
+.menu-item-label {
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.menu-icon-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.NavLinks {
+  list-style-type: none;
+  position: relative;
+  right: 18px;
+}
+.NavLinks > * + * {
+  margin-top: 8px;
+}
+
+.NavLink-item {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  background-color: #131313;
+  padding: 8px 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.NavLink-item > * + * {
+  margin-left: 10px;
+}
+
+.NavLink-item:hover {
+  background-color: #858585;
+
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Toggle styles */
+.open {
+  width: 18rem;
+}
+
+.minimized {
+  width: 0;
+}
+
+.show-item-label {
+  width: 100%;
+}
+
+.hide-item-label {
+  width: 0;
+}
+
+.adjust-icon-button-left {
+  right: 7.5px;
+}

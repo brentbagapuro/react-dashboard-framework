@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}

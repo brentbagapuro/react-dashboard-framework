@@ -1,0 +1,3 @@
+.GridColumn > * + * {
+  margin-top: 8px;
+}

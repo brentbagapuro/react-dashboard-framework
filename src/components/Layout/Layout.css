@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+
+main {
+  padding: 2em;
+  width: 100%;
+}
