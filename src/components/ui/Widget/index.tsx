@@ -18,7 +18,6 @@ const Widget: React.FC<WidgetType> = ({ title, subtitle, type, api }) => {
     axios
       .get(api)
       .then((res) => {
-        console.log(`${title}`, res)
         setData(res.data)
       })
       .catch((err) => console.log(err))
